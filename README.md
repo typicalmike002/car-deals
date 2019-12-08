@@ -1,3 +1,9 @@
+# CarDeals Challange
+
+This sample application provides users a way to narrow down their search of a car using React and Nodejs.  There are 2 parts to this application, the API server and the UI server.  By default, the UI server runs locally on port 3000 while the API server also runs locally on port 3001.  The API server depends on a Mongodb database, you may require changing the Mongodb connection string in the api/.env file.
+
+After unzipping this project, run npm install and then npm start to start the application.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -1,26 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import SearchControls from './SearchControls';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+    render() {
+        return (
+            <div className="container">
+                <div class="jumbotron">
+                    <h2>CarDeals</h2>
+                    <p>Find the best Cars, with the best deals!</p>
+                </div>
+                <SearchControls />
+            </div>
+        )
+    }
 }
 
 export default App;
